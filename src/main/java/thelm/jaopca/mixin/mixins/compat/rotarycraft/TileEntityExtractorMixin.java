@@ -1,13 +1,11 @@
-package thelm.jaopca.compat.rotarycraft.mixins;
-
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-
-import com.gtnewhorizon.mixinextras.injector.ModifyReturnValue;
+package thelm.jaopca.mixin.mixins.compat.rotarycraft;
 
 import Reika.DragonAPI.Interfaces.Registry.OreType;
 import Reika.RotaryCraft.TileEntities.Processing.TileEntityExtractor;
+import com.gtnewhorizon.mixinextras.injector.ModifyReturnValue;
 import net.minecraft.item.ItemStack;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
 import thelm.jaopca.compat.rotarycraft.recipes.RotaryCraftRecipeHandler;
 
 @Mixin(TileEntityExtractor.class)

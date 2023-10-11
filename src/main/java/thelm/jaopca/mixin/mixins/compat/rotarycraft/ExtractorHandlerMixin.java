@@ -1,13 +1,12 @@
-package thelm.jaopca.compat.rotarycraft.mixins;
-
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+package thelm.jaopca.mixin.mixins.compat.rotarycraft;
 
 import Reika.RotaryCraft.ModInterface.NEI.ExtractorHandler;
 import codechicken.nei.recipe.TemplateRecipeHandler;
 import net.minecraft.item.ItemStack;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import thelm.jaopca.compat.rotarycraft.recipes.JAOPCAExtractorRecipe;
 import thelm.jaopca.compat.rotarycraft.recipes.RotaryCraftRecipeHandler;
 
